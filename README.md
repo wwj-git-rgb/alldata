@@ -9,127 +9,9 @@
 ## [AllData@杭州奥零数据科技公司-开源安装部署](https://github.com/alldatacenter/alldata/blob/master/install/install.md)
 
 ## AllData数据中台产品详细介绍
-```
-【产品介绍】AllData数据中台是可定义数据中台，上层是Wujie微前端架构，底座是可插拔的后端架构，AllData数据中台以数据平台为底座，以数据中台为桥梁，以机器学习平台为中层框架，AllData以大模型应用为上游产品，提供全链路数字化解决方案。
 
-【核心优势】我们是一支敢为人先的技术探索研究团队，AllData产品涵盖15+大模块，36+核心功能，以及国产化+信创一体化部署版本。
-
-【发布计划】杭州奥零数据科技团队预发布AllData数据中台v1.4.1版本，2025年12月30会逐步发布由AllData商业版团队集成的80+新的开源项目框架。
-
-【产品矩阵：15+大模块】
-
-模块1. 数据源平台: 多元数据接入枢纽，高效整合海量数据源头。
-
-模块2. 数据库同步平台: 实现多库数据实时同步，保障数据一致性。
-
-模块3. 数据中枢平台: 数据流转核心，协调各方数据交互与共享。
-
-模块4. 数据汇聚平台: 广泛收集分散数据，构建统一数据资源池。
-
-模块5. 数据存储平台: 安全可靠存储海量数据，满足多样存储需求。
-
-模块6. 数据分析平台: 深度挖掘数据价值，提供精准决策分析依据。
-
-模块7. 数据开发平台: 便捷开发数据处理流程，加速数据应用落地。
-
-模块8. 数据治理平台: 规范数据管理流程，提升数据质量与可用性。
-
-模块9. 数据安全平台: 全方位守护数据安全，防范各类数据风险。
-
-模块10. 数据共享平台: 打破数据壁垒，促进数据在组织内流通共享。
-
-模块11. 数据可视化平台: 直观呈现数据，让复杂数据一目了然。
-
-模块12. 指标体系平台: 构建全面指标框架，量化评估业务表现。
-
-模块13. 机器学习算法平台: 集成多种算法，助力智能模型快速构建。
-
-模块14. 大模型应用开发平台: 降低大模型开发门槛，释放AI强大潜能
-
-模块15. 后台管理：统筹系统配置运维，保障平台稳定运行。
-
-【产品矩阵：36+核心功能】
-
-功能01. 数据源平台，集成开源Chat2DB项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能02. 数据库同步平台，集成开源DBSwitch项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能03. 数据中枢平台，集成开源DataCap项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能04. 数据汇聚平台-数据集成管理，集成开源DataX项目，包含项目管理、数据源管理、注册中心、单任务、多任务、任务模版、任务详情、运行日志、执行配置等功能。
-
-功能05. 数据汇聚平台-数据集成平台，集成开源Tis项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能06. 数据汇聚平台-数据同步平台，集成开源Seatunnel项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能07. 数据存储平台-数据平台，集成开源DataSophon项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能08. 数据存储平台-云原生数据平台，集成开源CloudEon项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能09. 数据存储平台-对象存储平台，发布后提供源码。
-
-功能10. 数据存储平台-K8S集群管控平台，发布后提供源码。
-
-功能11. 数据存储平台-GPU集群管控平台，发布后提供源码。
-
-功能12. 数据分析平台-数仓建模平台，发布后提供源码。
-
-功能13. 数据分析平台-数据湖平台，集成开源Paimon项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能14. 数据分析平台-湖仓平台中心，集成开源Amoro项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能15. 数据分析平台-湖仓一体化平台，集成开源Kyuubi项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能16. 数据开发平台-实时开发平台，集成开源StreamPark项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。。
-
-功能17. 数据开发平台-实时开发IDE，集成开源Dinky项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能18. 数据开发平台-离线开发平台，集成开源DolphinScheduler项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能19. 数据开发平台-离线开发IDE，发布后提供源码。
- 
-功能20. 数据治理平台-数据权限管理，包含数据授权，包括对数据库，表，字段级别授权。
-
-功能21. 数据治理平台-数据门户管理，包含数据字段、数据地图、数据查询、数据源、SQL控制台、行级变更等功能。
-
-功能22. 数据治理平台-数据模型管理，包含数据管理、数据模型等功能。
-
-功能23. 数据治理平台-数据标准管理，包含对比度统计、数据字典、字典对比、字典映射等功能。
-
-功能24. 数据治理平台-数据质量管理，包含质量报告、质量任务、规则引擎、日志监控、质量统计等功能。
-
-功能25. 数据治理平台-数据比对管理，包含数据库配置、调度任务、任务配置、任务实例、调度日志等功能。
-
-功能26. 数据治理平台-数据质量平台，集成开源DataVines项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能27. 数据治理平台-元数据管理平台，集成开源OpenMetaData项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能28. 数据治理平台-元数据开发平台，发布后提供源码。
-
-功能29. 数据安全平台，发布后提供源码。
-
-功能30. 数据共享平台-数据服务平台，包含接口市场管理，接口日志管理，接口数据脱敏，第三方接口注册，第三方接口调用日志等功能。
-
-功能31. 数据共享平台-API共享平台，集成开源SqlRest项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能32. 数据可视化平台-BI可视化平台，集成开源Datart项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能33. 指标体系平台，集成开源SuperSonic项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能34. 机器学习算法平台，集成开源CubeStudio项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能35. 大模型应用开发平台，集成开源BISHENG项目，引入开源项目，保留License协议和Notice声明，以及必要的二次开发。
-
-功能36. 后台管理功能-包括系统管理、监控管理、服务器管理功能。
-
-【产品矩阵：2+信创国产化版本】：
-
-功能37. 国产数据库一体化平台，发布后提供源码。
-
-功能38. 信创一体化平台，发布后提供源码。
-
-```
-
+![15+大模块](https://github.com/user-attachments/assets/4c46ade3-7b6b-43b9-a71f-fcc068cd3fe7)
+![36+核心功能](https://github.com/user-attachments/assets/7d76a41b-ce65-4c38-b23d-7f332d20b6c6)
 ## AllData发展历程
 
 <img width="1400" src="https://github-readme-stats.vercel.app/api/pin/?username=alldatacenter&repo=alldata" />
@@ -147,221 +29,274 @@
 <img width="1400" alt="image" src="https://github.com/user-attachments/assets/f91804db-9e45-4b22-958f-563bc6b9b578">
 
 ## AllData正式环境(部分截图)
+## 首页
+<img width="4480" height="2292" alt="首页" src="https://github.com/user-attachments/assets/afbbc553-faa8-414d-b2b3-b1d2a44fb066" />
 
-<img width="2072" alt="image" src="https://github.com/user-attachments/assets/019c2b8d-5af4-4c2d-9092-22e1dbd52776" />
+## 数据源平台
+
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/b02f6aac-eaf2-44c8-b166-849cd42a714c" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/a6fed95b-46fe-430e-bfbf-4b1167011b66" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/5d57696b-d789-4939-bcc6-8928a1504631" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/49069523-8685-4416-a4c3-ba4c620d2228" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/0696c297-d255-495a-ab8d-657ccc2eb6f8" />
+
+
+## 数据库同步平台
+
+<img width="3200" height="1556" alt="1" src="https://github.com/user-attachments/assets/91487505-93c0-45b1-824e-523355fe367d" />
+<img width="3200" height="1556" alt="2" src="https://github.com/user-attachments/assets/0618ba59-3793-4d64-8d98-38ef5ef5e5fa" />
+<img width="3200" height="1556" alt="3" src="https://github.com/user-attachments/assets/2d713737-634b-4a29-8f7f-58c8066f1498" />
+<img width="3200" height="1556" alt="4" src="https://github.com/user-attachments/assets/062b918e-c7f6-4783-8bfb-6f01555e336a" />
+<img width="3200" height="1556" alt="5" src="https://github.com/user-attachments/assets/67f45d2c-031d-45a5-982f-22d9bebfc5c0" />
+
+
+## 数据中枢平台
+
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/c485ef9c-4230-4b99-b2a5-116d98206328" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/23a0c3b8-4b89-4ca9-bb1b-8dc54e5bce2e" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/8fee190e-b631-48ed-bab1-1f77efddd688" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/82fe4333-c4bb-4b10-8c91-7db911b1301f" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/1610fd39-2882-4f95-ba47-a1b9a1a31c0d" />
+
 
 ## 数据汇聚平台-数据集成管理
 
-![1、配置数据源](https://github.com/user-attachments/assets/3bff5818-4504-45b6-b165-ca64eb2f36c3)
-![5、构建Sink](https://github.com/user-attachments/assets/82228bb2-3ad6-48ec-ace1-0c77bd3ab274)
-![6、字段映射](https://github.com/user-attachments/assets/1f1defb2-ca53-49ce-ba59-88595e0aa7db)
-![7、构建同步任务Json](https://github.com/user-attachments/assets/d5f62194-d320-4f6a-9643-4be9cc45bf0f)
-![8、选择定时调度任务模版，配置同步任务调度](https://github.com/user-attachments/assets/177d8908-8660-4841-abf8-52f944e8898f)
+<img width="3196" height="1572" alt="1" src="https://github.com/user-attachments/assets/e930e2d5-1d4b-4943-b763-ba6eab32876c" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/3de2d452-8786-4123-9166-f1a5e4c54678" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/7b98ab0c-82eb-4ef8-b175-869a055791b7" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/7b1bf260-4496-41fc-a7d4-5b84b34f1bae" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/84da2101-a3a5-4a67-aa7f-4f8640cbfb75" />
 
 
-## 数据汇聚平台: 数据集成平台
+## 数据汇聚平台-数据集成平台
 
-![image](https://github.com/user-attachments/assets/72e37a17-4a50-4da8-9aa6-ff7cf09bf783)
-![image](https://github.com/user-attachments/assets/2310ef12-07de-4b04-918a-b558d5a021de)
-![image](https://github.com/user-attachments/assets/ecc4a3c2-5905-4d13-aaac-4d5efd8a0898)
-![image](https://github.com/user-attachments/assets/4e240af0-df71-446a-ba6f-99b4a2270f39)
-![image](https://github.com/user-attachments/assets/d0215c45-ee2a-44dd-b4e6-a035e7929041)
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/a7cd3938-435e-4f79-828d-6480d27a943c" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/0e464e3f-0348-4fe4-8f71-00921c566ff2" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/bdd6a035-30d4-4a75-a5da-1686084d5df8" />
+<img width="3200" height="1568" alt="4" src="https://github.com/user-attachments/assets/d935d0e3-3899-44ce-b991-f4a4fbe39811" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/a9de8e1d-504b-4c53-ab48-2d75f43e4ed3" />
 
 
-## 数据汇聚平台: 数据同步平台
+## 数据汇聚平台-数据同步平台
 
-![image](https://github.com/user-attachments/assets/35cd0552-7205-44fd-8544-9bc858d4b3e3)
-![image](https://github.com/user-attachments/assets/0bbb2d8b-80de-4bbf-8b46-f14f6da16151)
-![image](https://github.com/user-attachments/assets/33f4e28e-74e1-41b7-827f-14fb8e97f017)
-![image](https://github.com/user-attachments/assets/9f1bd98f-9fa5-4ae5-9417-b97b66f5f7fd)
-![image](https://github.com/user-attachments/assets/efa17ce2-5c90-4a5a-9e6b-db8730e8626a)
+<img width="3198" height="1568" alt="1" src="https://github.com/user-attachments/assets/05d1ca4d-751f-412f-b0fd-64f7c798e602" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/ee6c9067-048d-4c4d-8713-b9e4935afeee" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/bd209a69-ee45-4c9e-bf22-6c8a633939ff" />
+<img width="3200" height="1568" alt="4" src="https://github.com/user-attachments/assets/5f0bc6ca-de66-40d7-b0a5-0670c98657cb" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/2e6ebf1c-93a3-4f7b-bb32-7edd235544c9" />
+
+
+## 数据存储平台-数据平台
+
+<img width="3198" height="1572" alt="1" src="https://github.com/user-attachments/assets/c9f7f5e2-cd46-4d9c-8ceb-92d09a253f09" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/af2f5b94-a7d6-4aa5-8e3b-4a0235fcb5cc" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/c37b342c-ed4c-49dc-a976-9d6b308a1f9f" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/bb5aa33e-6310-476a-9feb-8401329af8e4" />
+<img width="3200" height="1570" alt="5" src="https://github.com/user-attachments/assets/616eabf9-b3bc-438e-9168-b8b9c5df94b3" />
+
+
+## 数据存储平台-云原生数据平台
+
+<img width="3182" height="1564" alt="1" src="https://github.com/user-attachments/assets/d1f15f9c-d446-4112-b7b0-cba828ea9fa9" />
+<img width="3198" height="1568" alt="2" src="https://github.com/user-attachments/assets/5f10b215-da4a-467d-9da2-b71098692b57" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/9629d5be-c00f-4354-b3c3-0c6150c73920" />
+<img width="3196" height="1568" alt="4" src="https://github.com/user-attachments/assets/589d5136-35c3-4607-be5f-8a84d2b036b1" />
+<img width="3200" height="1564" alt="5" src="https://github.com/user-attachments/assets/8a42f83e-c1a7-43ec-ab3b-94b1b3a376f0" />
+
+
+## 数据分析平台-数仓建模平台
+
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/c53e4e6b-ed63-4b15-9568-39245f4ee06a" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/a70a7859-7dba-4c35-a7af-5e2491e64279" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/2a7d97bf-e916-4054-a4c5-8eacfdae6cbe" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/a3670cf8-09c1-469b-bb83-39fa9e5f3d49" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/825f3015-4481-4882-8d4e-70c98bd68224" />
+
+
+## 数据分析平台-数据湖平台
+
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/10bc7245-921f-4308-8a7d-e20c3ace4fb1" />
+<img width="3198" height="1568" alt="2" src="https://github.com/user-attachments/assets/0af89be3-82f5-41bf-9aff-02a910726cfe" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/94a70729-54be-432b-b140-27911999bf8e" />
+<img width="3200" height="1566" alt="4" src="https://github.com/user-attachments/assets/7b215f24-1d33-4b73-918a-b2ff9f2a77d0" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/5d61450d-2910-46c6-a159-f942dbc96c78" />
+
+
+## 数据分析平台-湖仓查询平台
+
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/e7daccab-120e-4c09-8f97-a33fec18758c" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/94232e9d-a106-42a9-8eff-8531d665bb17" />
+<img width="3198" height="1572" alt="3" src="https://github.com/user-attachments/assets/7a4abe84-737f-4b6a-a77a-3cffa7bd9ee8" />
+<img width="3190" height="1566" alt="4" src="https://github.com/user-attachments/assets/9bf98fe3-4085-4586-9cfc-134d3f387b55" />
+<img width="3196" height="1568" alt="5" src="https://github.com/user-attachments/assets/03f53af3-a6e2-412d-bf95-f6f91579948e" />
+
+
+## 数据分析平台-湖仓平台中心
+
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/4f25db53-29ba-4228-b833-b59ca8046d61" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/b541fdf1-990a-48ec-819c-2ffcaf26735e" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/7266eb37-bd80-4c79-bd95-8b1376459b8e" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/67223010-bc6b-4e0b-adcc-cdcf20f01dcd" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/7837e4eb-ce8f-4846-9dbd-939c7f929587" />
+
+
+## 数据开发平台-实时开发平台
+
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/a8fb6929-6dee-47d5-ab76-4c8a6b72db26" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/17afbcc3-f450-477e-8164-46231a4b4972" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/e40063a4-a5d7-4313-9bd1-7e387b75315a" />
+<img width="3200" height="1570" alt="4" src="https://github.com/user-attachments/assets/61f06616-a97f-42b6-b3ad-6825522a6f9c" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/f606953f-c797-4b1e-aaf9-ceea7bdc473b" />
+
+
+## 数据开发平台-实时开发IDE
+
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/305cd0a5-6283-4636-8687-ac58ceff2e9e" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/45a1079a-333a-454e-b77f-c647bdc43fe2" />
+<img width="3200" height="1570" alt="3" src="https://github.com/user-attachments/assets/fe8f3074-a794-43b2-923f-769bd6561f94" />
+<img width="3196" height="1566" alt="4" src="https://github.com/user-attachments/assets/7567fbd0-ecd8-4395-8c91-1b36cef33f74" />
+
+
+## 数据开发平台-离线开发平台
+
+<img width="4480" height="2282" alt="1" src="https://github.com/user-attachments/assets/08b55f4a-600c-4c31-a0c0-89d960171603" />
+<img width="3176" height="1552" alt="2" src="https://github.com/user-attachments/assets/24fa279d-1eb6-400b-bc34-a08cd31c2444" />
+<img width="3200" height="1570" alt="3" src="https://github.com/user-attachments/assets/b7acd4de-fb48-497b-a00e-722182d61d4d" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/f159270d-862c-4bfa-8126-7abfc333febe" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/ad5cc2d7-aa28-4687-9361-2289260e58a8" />
+
+
+## 数据治理平台-数据门户管理
+
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/64889c4d-3912-4afa-8c6d-64fec7a44f0d" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/cc887f94-23f5-468f-9037-f5ad764fc945" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/3328d807-da1a-4f3f-9765-2bcee9c9acb2" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/28168d13-5251-4940-91e7-6e8a2daeaacf" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/fe9da5b2-a14e-457b-bae7-b4b747786134" />
+
+
+## 数据治理平台-数据权限平台
+
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/4ac85662-fae7-48b6-815e-7ee7708f5dfc" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/c5b20fda-4e1a-4010-b3ca-15cd806cd779" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/422940ec-b90f-44d5-a9bf-3a962d9b3530" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/98d227f3-ee63-4b9f-9440-234df8f93eb2" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/f2c548bf-c178-4999-9d3e-a9f641e8b18a" />
+
+
+## 数据治理平台-数据质量管理
+
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/9f40798d-5d6a-4fef-90bc-cedb703d40f2" />
+<img width="3186" height="1528" alt="2" src="https://github.com/user-attachments/assets/07145018-d6ba-4670-b115-42376a80fcf1" />
+<img width="3200" height="1566" alt="3" src="https://github.com/user-attachments/assets/4d80f1ed-fef8-4c4d-a4a7-71a691ed45f6" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/f96e45fd-c48f-4e9b-b87d-9497d3704b08" />
+<img width="3190" height="1558" alt="5" src="https://github.com/user-attachments/assets/d5a29a2f-66b7-4494-b885-ed17ae71f9fb" />
+
+
+## 数据治理平台-数据比对管理
+
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/9cc1a0b6-5b45-45a5-bbd2-23e689711297" />
+<img width="3190" height="1572" alt="2" src="https://github.com/user-attachments/assets/de7c68f2-11f2-4f6b-a26a-27b4cb0ddd53" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/8928be0b-a411-49bc-826f-be6cd7b54d4f" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/cc1d0bd6-887c-4202-b64d-58cffd26a770" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/3df20b53-21a4-4d96-8a53-3bf8017f3245" />
+
+
+## 数据治理平台-数据标准管理
+
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/5d9a75b1-0a03-432a-b829-f646cca7f3a1" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/a240048f-2794-4c73-84ba-75681ef8e452" />
+<img width="3192" height="1566" alt="3" src="https://github.com/user-attachments/assets/3e7e95f1-c109-4ecf-903f-8a26348e8c1a" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/cfe37819-87e8-424c-b2db-0148d5a00b79" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/10a89959-ed4a-42fd-bffa-38d8215f061a" />
 
 
 ## 数据治理平台-数据模型管理
 
-![1、数据模型管理](https://github.com/user-attachments/assets/d0cbf38c-2f2d-40b6-b1aa-b1a239acd111)
-![2、增加模型基本信息](https://github.com/user-attachments/assets/6ae9af77-e35b-4350-9fb0-33d7d8149ee7)
-![3、修改模型字段信息](https://github.com/user-attachments/assets/1fd9dc44-131e-4dba-8873-a12b39f3d773)
-![5、管理数据列表](https://github.com/user-attachments/assets/32a36196-afd3-4af0-b921-3cd8525cc7f4)
-![6、数据管理-主数据新增](https://github.com/user-attachments/assets/6c9d185d-4845-4c17-897e-a5fc01ff72b8)
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/ef48f03b-1948-4a3a-9a94-ce22d446ab5b" />
+<img width="3152" height="1570" alt="2" src="https://github.com/user-attachments/assets/182b9072-3809-4385-a9d7-a918b5c88bb7" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/d180694c-4a26-423b-9de4-4a78b1f6f1bb" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/0194e100-6c07-4ef7-b3b8-c62b6c91e490" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/79e75c85-e04d-4291-86b5-fb0b376aba5d" />
 
 
-## 数据治理平台: 数据门户管理
+## 数据治理平台-元数据管理平台
 
-![1、数据源管理](https://github.com/user-attachments/assets/69e9a5bb-f77e-4951-802b-4e0300dc6d05)
-![2、元数据同步](https://github.com/user-attachments/assets/9eeacecf-6ea2-4b0b-bef1-e9bd6f7d06f2)
-![8、数据地图](https://github.com/user-attachments/assets/b79a556b-30fa-4e83-bd7a-e6048f18bf9e)
-![9、元数据查询](https://github.com/user-attachments/assets/e6ecf5ce-1c14-4f84-9738-a3a181185d9e)
-![11、行级变更](https://github.com/user-attachments/assets/fc81e898-dd60-4e79-835d-eba98d167cee)
-
-
-## 数据治理平台: 数据标准管理
-
-![1、标准管理](https://github.com/user-attachments/assets/fb37fb7b-4be8-43a6-b12e-09691b561f5a)
-![5、新增数据标准成功](https://github.com/user-attachments/assets/5ce63fb6-01c5-45a9-b591-8b38cb5a1ef7)
-![8、标准关系管理](https://github.com/user-attachments/assets/65ffb228-41b6-4535-a93e-19971c01e995)
-![14、手工对照标准任务](https://github.com/user-attachments/assets/45ac18df-bdd1-4de6-a7cc-08a9d7877488)
-![15、标准结果中心](https://github.com/user-attachments/assets/f97cd15d-aba6-4759-bf1f-8730b333630d)
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/8b7c4987-3b01-465e-b15d-59a2c4fa2cd7" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/5c4cc579-5880-4d59-a64a-e74778eb1c6b" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/e5ea66eb-0696-41fd-98a1-bb2dbec75a13" />
+<img width="3194" height="1572" alt="4" src="https://github.com/user-attachments/assets/2a374d7e-80b5-4db1-827e-81dd4c44de98" />
+<img width="3200" height="1570" alt="5" src="https://github.com/user-attachments/assets/137ee0f0-8f21-4e07-9de7-bc7f48da8134" />
 
 
-## 数据治理平台: 数据比对管理
+## 数据治理平台-数据质量平台
 
-![15、标准结果中心](https://github.com/user-attachments/assets/5f312208-4203-44ea-8ee2-8a512f3b96a3)
-![2、新增Mysql数据库](https://github.com/user-attachments/assets/e1e3d1b2-3034-4f48-82b7-436fe7f171d3)
-![4、新增Doris数据库](https://github.com/user-attachments/assets/d8afad02-aa1c-46df-a08b-ed0736a329e6)
-![7、运行数据比对任务](https://github.com/user-attachments/assets/b2f221b8-b220-4111-8d29-04879a7f845b)
-![9、查看数据比对任务结果](https://github.com/user-attachments/assets/0ad48bea-05f7-4e39-b033-92dfb5da5990)
-
-
-## 数据治理平台: 数据权限管理
-
-![1、选中角色组-超级管理员](https://github.com/user-attachments/assets/27938b27-11e5-4418-8adc-c246c6a263c7)
-![3、增加数据库权限授权](https://github.com/user-attachments/assets/d0acad52-9a7c-4291-8ea7-6d532f69fa53)
-![4、数据表级别安全管理](https://github.com/user-attachments/assets/b5664f08-4058-4efa-ad4f-950d5d9de074)
-![6、字段级别安全管理](https://github.com/user-attachments/assets/b470f1bf-ad3c-4156-b05b-333a14506fbe)
-![image](https://github.com/user-attachments/assets/e19da8ad-191c-49dd-93b5-a5732be3d49e)
+<img width="3200" height="1570" alt="1" src="https://github.com/user-attachments/assets/b6ce2aa6-9413-44aa-bd92-64a7cd51a5ff" />
+<img width="3196" height="1562" alt="2" src="https://github.com/user-attachments/assets/b44c0699-474b-48ff-94bd-629a1b2c3dcb" />
+<img width="3196" height="1564" alt="3" src="https://github.com/user-attachments/assets/6d1ef1a5-3416-4163-af81-7a48ad918ea0" />
+<img width="3198" height="1566" alt="4" src="https://github.com/user-attachments/assets/b5a33b3a-94ee-4731-b92b-486086bf7ce7" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/860c89e9-a3b2-484a-b085-82a03860bd10" />
 
 
-## 数据治理平台: 数据质量管理
+## 数据共享平台-数据服务平台
 
-![2、创建唯一性质量规则](https://github.com/user-attachments/assets/20549725-78e4-427e-b37b-d831b0d1311b)
-![2、创建唯一性质量规则](https://github.com/user-attachments/assets/f7964a2a-79b1-413a-899e-8c92b3fb732b)
-![11、创建关联性质量规则](https://github.com/user-attachments/assets/0ed8461f-cc7c-48dd-9d97-9d31dc0916e5)
-![16、查看数据质量分析报告](https://github.com/user-attachments/assets/ed02bfdb-7fd5-4326-970a-be8c51f3b6b8)
-![18、查看数据质量统计分析](https://github.com/user-attachments/assets/3e61b44e-cabd-4bd7-a351-327d2068c985)
-
-
-## 数据治理平台: 元数据管理平台
-
-![image](https://github.com/user-attachments/assets/5258ac10-a318-403b-9a86-8ea4685e81b3)
-![image](https://github.com/user-attachments/assets/93178d6c-a38f-4ca9-af07-68cab2f7a8db)
-![image](https://github.com/user-attachments/assets/e140811c-9a42-44bc-a4a0-03302a5ffb94)
-![image](https://github.com/user-attachments/assets/274982df-738b-4cb0-8a84-d30b21d3c73e)
-![image](https://github.com/user-attachments/assets/50a7f5a5-f311-44a6-b173-e10058994a02)
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/d73682d0-3b12-4b95-a53e-584b20766d74" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/c39f7f03-c0cb-4ef7-9b38-db22fa60a638" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/c5781b82-375b-407f-808d-f4db4503ff7f" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/94e8d2cb-ced1-4dee-9126-180a119f7fc4" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/4c77c885-0468-4273-9237-63b0d95ca87e" />
 
 
-## 数据治理平台: 数据质量平台
+## 数据共享平台-API共享平台
 
-![image](https://github.com/user-attachments/assets/e63a1795-9f69-4cf1-8114-6fdd10863eb5)
-![image](https://github.com/user-attachments/assets/bfda0e48-67fe-4fdd-8681-d8c0760da525)
-![image](https://github.com/user-attachments/assets/c5022751-165b-49c4-af21-61146ffa47fd)
-![image](https://github.com/user-attachments/assets/c862ca76-4e86-42e5-b3e7-4dc47a5026f4)
-![image](https://github.com/user-attachments/assets/157649be-88d2-4b02-b694-d0f359d9f53c)
-
-
-## 数据共享平台: 数据服务管理
-
-![6、创建数据服务](https://github.com/user-attachments/assets/66dd7c21-8714-4cba-9fa9-395f4068b6af)
-![7、需要选择字段作为请求参数](https://github.com/user-attachments/assets/6132c7d5-60a3-4d8c-aed3-df63e8ed6395)
-![9、数据库脚本创建数据服务（二选一）](https://github.com/user-attachments/assets/8977fb33-e657-4958-bdce-55a3d511a9b1)
-![12、进入数据服务详情](https://github.com/user-attachments/assets/7fbf927a-9e42-4716-a3f6-a4f4c5f63638)
-![19、第三方服务详情](https://github.com/user-attachments/assets/67749814-d674-4788-ac40-7505f23886a9)
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/129a6889-bb32-44da-8598-8e3722fde650" />
+<img width="3196" height="1568" alt="2" src="https://github.com/user-attachments/assets/acefb858-9545-4883-a57a-8663c3c1a9e8" />
+<img width="3200" height="1568" alt="3" src="https://github.com/user-attachments/assets/1d32b5e0-6dcb-42c4-9277-a74de6cf336a" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/7112ecdc-a6ce-4196-bc80-d2aea3bc1e74" />
+<img width="3200" height="1566" alt="5" src="https://github.com/user-attachments/assets/9cda0e28-934e-45fa-a840-e762bed4f226" />
 
 
-## 数据可视化平台: BI可视化平台
+## 数据可视化平台-BI可视化平台
 
-![image](https://github.com/user-attachments/assets/a7257f3b-375d-4431-9a3c-8d3361b65432)
-![image](https://github.com/user-attachments/assets/b617e15a-9194-48e7-91cc-22364a8db995)
-![image](https://github.com/user-attachments/assets/daa030ff-7918-447f-b225-8ca30200f095)
-![image](https://github.com/user-attachments/assets/8eebe910-4773-412a-b35e-0e383cc0f700)
-![image](https://github.com/user-attachments/assets/9557c38f-9749-4d69-9e1f-9c4e67e54740)
-
-## 后台管理: 系统管理
-
-![image](https://github.com/user-attachments/assets/20ca5731-93ed-44ab-b84d-7b886c420f61)
-![image](https://github.com/user-attachments/assets/657fe988-7aaa-46e7-93b4-a25ec77dc438)
-![image](https://github.com/user-attachments/assets/522b2ff2-f30d-4dad-9854-7f7e7192b448)
-![image](https://github.com/user-attachments/assets/653d50e2-0d75-4456-b65f-362192510bf3)
-![image](https://github.com/user-attachments/assets/0eeb0c05-a2c2-4ffe-9e5a-8fff9e34a9e5)
-
-## 数据存储平台: 数据平台
-
-![image](https://github.com/user-attachments/assets/1b44c84d-a86b-4416-9ff5-5753ae5a5723)
-![image](https://github.com/user-attachments/assets/6a735ba1-a82a-4b72-8c91-c3052c5e7650)
-![image](https://github.com/user-attachments/assets/f052b929-81b6-42a8-a170-1662d63e2728)
-![image](https://github.com/user-attachments/assets/cfa7b8fc-e4c5-4057-9024-2d7cd0adffa5)
-![image](https://github.com/user-attachments/assets/edc62c24-90c7-4938-a89f-e0e61e460507)
-
-
-## 数据存储平台：K8S平台
-
-![image](https://github.com/user-attachments/assets/d6b800d2-8172-4ee1-a9c5-2e63bc232361)
-![image](https://github.com/user-attachments/assets/8fe375fd-9935-4e2f-baac-38088fcf33bf)
-![image](https://github.com/user-attachments/assets/08fdd88f-6f37-454d-be04-4d6e51360000)
-![image](https://github.com/user-attachments/assets/9d1c56fc-3b25-4652-9d0c-5af6b224c5c8)
-![image](https://github.com/user-attachments/assets/5f4e93b2-b981-4a8d-b118-af58793031b9)
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/955f56a2-65cf-47b9-861b-55fdf99f283c" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/c4bf3f90-01a6-4233-96f1-c0a8d13e526d" />
+<img width="3200" height="1570" alt="3" src="https://github.com/user-attachments/assets/82cb56c3-3425-4611-bf26-65e1d4220fdd" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/03c43a08-7bbe-44ea-8a12-76e0d6dce728" />
+<img width="3200" height="1570" alt="5" src="https://github.com/user-attachments/assets/197be2f8-ac71-4243-9333-4a66002aef00" />
 
 
 ## 指标体系平台
 
-![image](https://github.com/user-attachments/assets/9ef6ab40-1de8-4fde-92a9-f126bca69596)
-![image](https://github.com/user-attachments/assets/699096c2-69a4-4ee0-a720-e5479acb1f2b)
-![image](https://github.com/user-attachments/assets/49d0f43e-686e-4ffb-b87c-6f703847df34)
-![image](https://github.com/user-attachments/assets/aabfbcb8-e7a8-40c0-82e4-d1e30f3b838a)
-![image](https://github.com/user-attachments/assets/8178813c-daa6-4232-8ae9-e4171de28f08)
-
-
-## 数据开发平台: 实时开发平台
-
-![image](https://github.com/user-attachments/assets/1c83ad69-8fa1-4eab-ae8a-17b9b7c8aaed)
-![image](https://github.com/user-attachments/assets/4fca9d5f-ed47-42b8-84b6-fbd95be5ad16)
-![image](https://github.com/user-attachments/assets/0f7b11df-06a2-44d6-9855-78ba1c5bf4f4)
-![image](https://github.com/user-attachments/assets/c686e155-a0e8-48b4-bee4-35925d7c5e86)
-![image](https://github.com/user-attachments/assets/874daa23-7353-43f0-b871-68a22cd5d7a7)
-
-
-## 数据开发平台: 实时开发IDE
-
-![image](https://github.com/user-attachments/assets/acee579b-5c56-4179-a121-c26c158d7c3e)
-![image](https://github.com/user-attachments/assets/33599613-f5cf-4d5a-b68e-07291a2e501c)
-![image](https://github.com/user-attachments/assets/b7b4a7ae-e40b-4e4b-a6ca-3d32c99b68f0)
-![image](https://github.com/user-attachments/assets/13b083e7-8091-4e4d-819a-f5421df5224f)
-![image](https://github.com/user-attachments/assets/fb511706-3ace-40a0-afe3-2ba9cdc34998)
-
-
-## 数据开发平台: 离线开发平台
-
-![image](https://github.com/user-attachments/assets/3edce009-996a-425a-9c5b-fe4299188330)
-![image](https://github.com/user-attachments/assets/443c6afe-1b53-4803-aa42-0b6a887a67e9)
-![image](https://github.com/user-attachments/assets/3e9731b0-4e60-455c-b506-cd74592204df)
-![image](https://github.com/user-attachments/assets/5562ea5b-613c-4871-be81-b12188034d0f)
-![image](https://github.com/user-attachments/assets/891f74f7-6850-4ebb-a2a9-3fc4ef23b7d3)
-
-
-
-## 数据分析平台: 数据湖平台
-
-![image](https://github.com/user-attachments/assets/8664f823-611e-4a6d-bb94-c8f4cc4eb908)
-![image](https://github.com/user-attachments/assets/351d3095-c275-4ac3-99bc-cb104fb8c573)
-![image](https://github.com/user-attachments/assets/33b51018-5f61-479e-a86c-6939d7db5041)
-![image](https://github.com/user-attachments/assets/de3c088d-5038-4ffd-9cfd-bb60c9d78511)
-![image](https://github.com/user-attachments/assets/d35017a5-f44a-4b46-a578-7fde371d19c9)
-
-
-## 数据分析平台: 湖仓平台中心
-
-![image](https://github.com/user-attachments/assets/5bd5dcb1-d152-4d8f-898d-ef7742fe5000)
-![image](https://github.com/user-attachments/assets/178d782c-d3cf-4c62-b17e-6b8626eeb258)
-![image](https://github.com/user-attachments/assets/1a9fcabb-1aac-4552-9461-bc3fed8936cb)
-![image](https://github.com/user-attachments/assets/b7dcfc62-e209-48b6-ac29-b6e41a13557a)
-![image](https://github.com/user-attachments/assets/28d069d7-0618-4fb9-b277-2d4c61acc4d8)
-
-
-## 数据分析平台: 湖仓一体化
-
-![image](https://github.com/user-attachments/assets/7e4e38b0-8326-42aa-8763-8c863f8e8af5)
-![image](https://github.com/user-attachments/assets/5e7478b3-8356-4132-83a6-0e19efae1147)
-![image](https://github.com/user-attachments/assets/aa03f9ab-3d7d-4b7a-9926-2c8aedb087f0)
-![image](https://github.com/user-attachments/assets/5f85bffd-42b3-4f89-bdf7-326ad14cc46b)
-![image](https://github.com/user-attachments/assets/afdbc81d-63ad-496d-ba27-3983d1ffeb25)
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/f9e527ee-eb4c-4720-b998-4534859a445f" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/eb15209f-6645-4a16-a35c-208a4b75b3df" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/f79c7405-28d5-433b-8899-5479301f2b2e" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/35db657e-8f5d-40be-a0ac-e42d2c9734f7" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/e7675018-c2ad-4f60-89b3-ad3c1350e379" />
 
 
 ## 机器学习算法平台
 
-![image](https://github.com/user-attachments/assets/81cbf4f8-1c0b-45e3-b21a-8b32ce5abecd)
-![image](https://github.com/user-attachments/assets/3c063ee3-e2c9-4225-bc1a-0b12c1447431)
-![image](https://github.com/user-attachments/assets/019c4f60-0816-4904-ad4c-622f36039643)
-![image](https://github.com/user-attachments/assets/d2b90680-a7fa-4e51-b0dc-e2eb88d526e3)
-![image](https://github.com/user-attachments/assets/27ef983d-83bd-46d2-b4f4-99903bdf15e1)
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/5d08331b-3957-4cea-a5c0-720c85fe93bf" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/f53473ad-4ee4-49ce-b493-2719a5020828" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/b9b3ccdf-0696-4e8e-858e-534a4ae1a8f6" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/7cb04523-cb77-4cd8-aa54-a5266da81364" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/563fd7ff-a36a-4973-9f0e-b3702afbe222" />
 
+
+## 大模型应用开发平台
+
+<img width="3192" height="1568" alt="1" src="https://github.com/user-attachments/assets/777cf47a-86e9-4acf-a319-a7281b501ae9" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/bc0a647d-5ff1-4db4-bcea-dc6f0585407d" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/1eace896-9fb9-47a0-8944-e9c3767276e6" />
+<img width="3198" height="1572" alt="4" src="https://github.com/user-attachments/assets/1f926cbe-ea07-4ee2-bbb2-e0b7db56c9b2" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/3d6e8c1c-2ea9-4ebd-a822-3cd52ae30034" />
+
+
+## 后台管理
+
+<img width="3200" height="1570" alt="1" src="https://github.com/user-attachments/assets/338a4ebf-cbdf-4fb0-a8f1-98e2bcda9d89" />
+<img width="3200" height="1570" alt="2" src="https://github.com/user-attachments/assets/a643092c-c0f9-4c0c-a1f7-e0ea67ddeab4" />
+<img width="3192" height="1560" alt="3" src="https://github.com/user-attachments/assets/dc185a13-6948-4d0d-ab2c-9d3163ae9c24" />
+<img width="3200" height="1564" alt="4" src="https://github.com/user-attachments/assets/710a2c7e-3673-476f-8eea-db0c46d311f2" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/4e83cfc2-4baa-47d5-8262-33dca733004b" />
 
