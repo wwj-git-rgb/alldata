@@ -10,8 +10,8 @@
 
 ## AllData数据中台产品详细介绍
 
-![15+大模块](https://github.com/user-attachments/assets/4c46ade3-7b6b-43b9-a71f-fcc068cd3fe7)
-![36+核心功能](https://github.com/user-attachments/assets/7d76a41b-ce65-4c38-b23d-7f332d20b6c6)
+<img width="1400" src="https://github.com/user-attachments/assets/8eb823c3-6282-4638-bec1-f09b46cfe497" />
+
 ## AllData发展历程
 
 <img width="1400" src="https://github-readme-stats.vercel.app/api/pin/?username=alldatacenter&repo=alldata" />
@@ -299,4 +299,5 @@
 <img width="3192" height="1560" alt="3" src="https://github.com/user-attachments/assets/dc185a13-6948-4d0d-ab2c-9d3163ae9c24" />
 <img width="3200" height="1564" alt="4" src="https://github.com/user-attachments/assets/710a2c7e-3673-476f-8eea-db0c46d311f2" />
 <img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/4e83cfc2-4baa-47d5-8262-33dca733004b" />
+
 
