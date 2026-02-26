@@ -10,7 +10,7 @@
 
 ## AllData数据中台产品详细介绍
 
-<img width="1400" src="https://github.com/user-attachments/assets/8eb823c3-6282-4638-bec1-f09b46cfe497" />
+<img width="1400" src="https://github.com/user-attachments/assets/db0b7886-c7bc-4206-8798-0c53b151fa21" />
 
 ## AllData发展历程
 
@@ -299,5 +299,6 @@
 <img width="3192" height="1560" alt="3" src="https://github.com/user-attachments/assets/dc185a13-6948-4d0d-ab2c-9d3163ae9c24" />
 <img width="3200" height="1564" alt="4" src="https://github.com/user-attachments/assets/710a2c7e-3673-476f-8eea-db0c46d311f2" />
 <img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/4e83cfc2-4baa-47d5-8262-33dca733004b" />
+
 
 
