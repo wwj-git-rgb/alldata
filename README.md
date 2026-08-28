@@ -4,7 +4,7 @@
 ### [AllData数据中台 & 杭州奥零数据科技 - 产品手册](https://www.yuque.com/aolingdata/product)
 ### [AllData数据中台 & 杭州奥零数据科技 - 社区文档](https://docs.qq.com/doc/DVHlkSEtvVXVCdEFo) 
 ### [AllData数据中台 & 杭州奥零数据科技 - 社区交流](https://docs.qq.com/doc/DVnhVemtBTHdDVHps) 
-### [AllData数据中台 & 杭州奥零数据科技 - 开源版安装部署](https://alldata-document.readthedocs.io) 
+### [AllData数据中台 & 杭州奥零数据科技 - 开源文档](https://alldata-document.readthedocs.io) 
 
 
 ## AllData数据中台产品详细介绍
@@ -17,7 +17,13 @@
 <img width="1400" alt="image" src="https://github.com/user-attachments/assets/7e18ed98-1943-4e0c-9f6b-40b16a8f4fc9">
 
 ## AllData发展历程
-<img width="1400" src="https://starchart.cc/alldatacenter/alldata.svg" />
+<a href="https://www.star-history.com/?repos=alldatacenter%2Falldata&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=alldatacenter/alldata&type=date&theme=dark&legend=top-left&sealed_token=2OulM6EEtkctkFp_vnO3Jze480uCZLxKqZADq9q8yXDgMw9TVSgLtkTuAtk96THuCvy61H9OBKhW3uNRmlHRU-cpCZbgL5ZELZg327sfx1XeevXLrI3xVw" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=alldatacenter/alldata&type=date&legend=top-left&sealed_token=2OulM6EEtkctkFp_vnO3Jze480uCZLxKqZADq9q8yXDgMw9TVSgLtkTuAtk96THuCvy61H9OBKhW3uNRmlHRU-cpCZbgL5ZELZg327sfx1XeevXLrI3xVw" />
+   <img width="1400" alt="Star History Chart" src="https://api.star-history.com/chart?repos=alldatacenter/alldata&type=date&legend=top-left&sealed_token=2OulM6EEtkctkFp_vnO3Jze480uCZLxKqZADq9q8yXDgMw9TVSgLtkTuAtk96THuCvy61H9OBKhW3uNRmlHRU-cpCZbgL5ZELZg327sfx1XeevXLrI3xVw" />
+ </picture>
+</a>
 
 ## AllData数据中台产品演示与体验
 ## AllData登录页
